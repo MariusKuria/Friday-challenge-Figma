@@ -23,11 +23,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    text-align: center;
+    /* text-align: center; */
     height: 100vh;
     align-content: center;
     align-items: center;
-    background-color: #F7F6FF;
+    /* background-color: #F7F6FF; */
 }
 
 .section {
@@ -43,5 +43,13 @@ body {
     flex-direction: column;
     width: 200px;
     align-self: center;
+}
+
+.foot-title {
+    color: #02577A;
+    text-align: center;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 5px;
 }
  
