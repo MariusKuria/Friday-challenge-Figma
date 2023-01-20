@@ -1,0 +1,39 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top; 
+     
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #F7F6FF;
+}
+
+.main, .footer {
+    
+    background-color: #E5E5E5;
+}
+
+.main {
+    height: 100vh;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
