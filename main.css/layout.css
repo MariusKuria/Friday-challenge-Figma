@@ -11,28 +11,23 @@ body {
 }
 .container {
     display: flex;
-    background-color: blueviolet;
 }
 
 .bala {
     display: flex;
     flex-direction: column;
+    background-color: #E5E5E5;
 }
 
 .navbar {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     text-align: center;
     height: 100vh;
     align-content: center;
     align-items: center;
-}
-
-.navbar {
     background-color: #F7F6FF;
-}
-
-.section, .footer {
-    background-color: #E5E5E5;
 }
 
 .section {
@@ -40,8 +35,7 @@ body {
 }
 
 .bala {
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .footer {
