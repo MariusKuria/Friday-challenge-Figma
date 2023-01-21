@@ -20,29 +20,18 @@ body {
 }
 
 .navbar {
-    width: 150px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     height: 100vh;
     align-content: center;
     align-items: center;
-    transition-duration: 0.2ms;
+    text-align: center;
+    transition-duration: 0.9ms;
     color: #c4c4c4;
-    /* display: none; */
+    background-color: #F7F6FF;
 }
-/* 
-.navbar-on-hover {
-    width: 170px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 100vh;
-    align-content: left;
-    align-items: center;
-    transition-duration: 0.2ms;
-    display: none;
-} */
 
 /* HOVER ICONU SU TEXTU LYGIAVIMAS */
 
@@ -55,54 +44,7 @@ body {
     align-items
     justify-content
     flex-direction */
-    
 }
-/* 
-.hover-icon-align {
-    display: flex;
-    flex-direction: column;
-    color: #c4c4c4;
-    gap: 30px;
-} */
-
-
-/* ----------------------------------------- */
- 
-/* HOVERIO STEBUKLAS ;) */
-/* 
-.navbar:hover {
-    display: none;
-    
-}
-
-.navbar-on-hover:hover {
-    display: block;
-    
-} */
-
-
-/* HOVERIO SPRENDIMO PAVYZDYS ZEMIAU */
-
- /* .right-column > .img-grey,
-.right-column:hover > .img-color {
-    display: block;
-}
-.right-column > .img-color,
-.right-column:hover > .img-grey {
-    display: none; */
-
-/* <div class="right-column">
-        <img
-          class="img-grey"
-          src="./images/grey-astro.png"
-          alt="Susiguzes astronautas su telofonu"
-        />
-        <img
-          class="img-color"
-          src="./images/lost-astro.png"
-          alt="Susiguzes astronautas su telofonu"
-        />
-      </div> */
 
 /* -------------------------------------------- */
 
@@ -149,7 +91,27 @@ body {
 .navbar:hover > .calendar-icon > .title-calendar,
 .navbar:hover > .fe-icon > .title-fe,
 .navbar:hover > .game-icon > .title-game  {
-    display: block;
-    
+    display: block;  
 }
 
+.navbar:hover {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.navbar:hover > .logo, 
+.nabbar:hover > .line-logo {
+    padding-right: 20px;
+}
+
+.home-icon:hover,
+.calendar-icon:hover,
+.fe-icon:hover,
+.game-icon:hover  {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px;
+    
+}
