@@ -20,15 +20,103 @@ body {
 }
 
 .navbar {
+    width: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* text-align: center; */
     height: 100vh;
     align-content: center;
     align-items: center;
-    /* background-color: #F7F6FF; */
+    /* display: none; */
 }
+
+.navbar-on-hover {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    align-content: left;
+    align-items: center;
+    display: none;
+}
+
+/* HOVER ICONU SU TEXTU LYGIAVIMAS */
+
+.home-hover, .calendar-hover, .fe-hover, .game-hover {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    /* JEI REIKTU KAIP LYGIUOTI SU FLEXU
+    align-items
+    justify-content
+    flex-direction */
+    
+}
+.hover-icon-align {
+    display: flex;
+    flex-direction: column;
+    color: #c4c4c4;
+    gap: 30px;
+}
+
+/* ----------------------------------------- */
+
+/* HOVERIO STEBUKLAS ;) */
+/* .navbar:hover, .navbar-on-hover {
+    display: none;
+}
+.navbar-on-hover:hover, .navbar {
+    display: flexbox;
+} */
+
+/* .navbar, .navbar-on-hover:hover {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    display: block;
+}
+
+.navbar-on-hover, .navbar:hover {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    align-content: left;
+    align-items: center;
+    display: none;
+} */
+
+/* HOVERIO SPRENDIMO PAVYZDYS ZEMIAU */
+
+ /* .right-column > .img-grey,
+.right-column:hover > .img-color {
+    display: block;
+}
+.right-column > .img-color,
+.right-column:hover > .img-grey {
+    display: none; */
+
+/* <div class="right-column">
+        <img
+          class="img-grey"
+          src="./images/grey-astro.png"
+          alt="Susiguzes astronautas su telofonu"
+        />
+        <img
+          class="img-color"
+          src="./images/lost-astro.png"
+          alt="Susiguzes astronautas su telofonu"
+        />
+      </div> */
+
+/* -------------------------------------------- */
 
 .section {
     height: 100%;
@@ -52,4 +140,5 @@ body {
     line-height: 13px;
     margin-bottom: 5px;
 }
+
  
