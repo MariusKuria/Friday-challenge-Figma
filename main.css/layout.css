@@ -20,16 +20,18 @@ body {
 }
 
 .navbar {
-    width: 100px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     height: 100vh;
     align-content: center;
     align-items: center;
+    transition-duration: 0.2ms;
+    color: #c4c4c4;
     /* display: none; */
 }
-
+/* 
 .navbar-on-hover {
     width: 170px;
     display: flex;
@@ -38,8 +40,9 @@ body {
     height: 100vh;
     align-content: left;
     align-items: center;
+    transition-duration: 0.2ms;
     display: none;
-}
+} */
 
 /* HOVER ICONU SU TEXTU LYGIAVIMAS */
 
@@ -54,44 +57,29 @@ body {
     flex-direction */
     
 }
+/* 
 .hover-icon-align {
     display: flex;
     flex-direction: column;
     color: #c4c4c4;
     gap: 30px;
-}
+} */
+
 
 /* ----------------------------------------- */
-
+ 
 /* HOVERIO STEBUKLAS ;) */
-/* .navbar:hover, .navbar-on-hover {
+/* 
+.navbar:hover {
     display: none;
+    
 }
-.navbar-on-hover:hover, .navbar {
-    display: flexbox;
-} */
 
-/* .navbar, .navbar-on-hover:hover {
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 100vh;
-    align-content: center;
-    align-items: center;
+.navbar-on-hover:hover {
     display: block;
-}
-
-.navbar-on-hover, .navbar:hover {
-    width: 170px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 100vh;
-    align-content: left;
-    align-items: center;
-    display: none;
+    
 } */
+
 
 /* HOVERIO SPRENDIMO PAVYZDYS ZEMIAU */
 
@@ -141,4 +129,27 @@ body {
     margin-bottom: 5px;
 }
 
- 
+.home-icon, 
+.calendar-icon, 
+.fe-icon,
+.game-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar > .home-icon > .title-home, 
+.navbar > .calendar-icon > .title-calendar,
+.navbar > .fe-icon > .title-fe,
+.navbar > .game-icon > .title-game  {
+    display:none
+}
+
+.navbar:hover > .home-icon > .title-home,
+.navbar:hover > .calendar-icon > .title-calendar,
+.navbar:hover > .fe-icon > .title-fe,
+.navbar:hover > .game-icon > .title-game  {
+    display: block;
+    
+}
+
