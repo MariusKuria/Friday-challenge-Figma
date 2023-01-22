@@ -11,12 +11,13 @@ body {
 }
 .container {
     display: flex;
+    
 }
 
-.bala {
+.logo-line {
     display: flex;
     flex-direction: column;
-    background-color: #E5E5E5;
+    gap: 20px;
 }
 
 .navbar {
@@ -25,26 +26,43 @@ body {
     flex-direction: column;
     gap: 30px;
     height: 100vh;
-    align-content: center;
     align-items: center;
-    text-align: center;
     transition-duration: 0.9ms;
     color: #c4c4c4;
     background-color: #F7F6FF;
 }
 
-/* HOVER ICONU SU TEXTU LYGIAVIMAS */
+.navbar:hover {
+    width: 160px;
+    padding-left: 20px;
+    align-items: flex-start;
+}
 
+.navbar:hover > .logo-on-hover {
+    padding-left: 20px;
+}
+
+.bala {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    width: 100%;  
+    align-items: center;
+    
+}
+
+/* HOVER ICONU SU TEXTU LYGIAVIMAS */
+/* 
 .home-hover, .calendar-hover, .fe-hover, .game-hover {
     display: flex;
     gap: 10px;
-    align-items: center;
+    align-items: center; */
 
     /* JEI REIKTU KAIP LYGIUOTI SU FLEXU
     align-items
     justify-content
     flex-direction */
-}
+
 
 /* -------------------------------------------- */
 
@@ -52,23 +70,26 @@ body {
     height: 100%;
 }
 
-.bala {
-    width: 100%;  
-}
-
 .footer {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    align-self: center;
+    width: 500px;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 .foot-title {
+    width: 250px;
     color: #02577A;
     text-align: center;
-    font-size: 11px;
-    line-height: 13px;
-    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-line {
+    width: 450px;
 }
 
 .home-icon, 
@@ -92,16 +113,6 @@ body {
 .navbar:hover > .fe-icon > .title-fe,
 .navbar:hover > .game-icon > .title-game  {
     display: block;  
-}
-
-.navbar:hover {
-    width: 200px;
-    padding-left: 20px;
-}
-
-.navbar:hover > .logo, 
-.nabbar:hover > .line-logo {
-    padding-right: 20px;
 }
 
 .home-icon:hover,
