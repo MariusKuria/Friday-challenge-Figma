@@ -9,45 +9,109 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .container {
     display: flex;
-    background-color: blueviolet;
 }
-
-.bala {
+/* ----------------NAVBAR LAYOUT --------------------*/
+.logo-line {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .navbar {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-    text-align: center;
     height: 100vh;
-    align-content: center;
     align-items: center;
-}
-
-.navbar {
+    transition-duration: 0.4s;
+    color: #c4c4c4;
     background-color: #F7F6FF;
 }
 
-.section, .footer {
+.navbar:hover {
+    width: 160px;
+    padding-left: 20px;
+    align-items: flex-start;
+}
+
+.home-icon, 
+.calendar-icon, 
+.fe-icon,
+.game-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar > .home-icon > .title-home, 
+.navbar > .calendar-icon > .title-calendar,
+.navbar > .fe-icon > .title-fe,
+.navbar > .game-icon > .title-game  {
+    display:none
+}
+
+.navbar:hover > .logo-on-hover {
+    padding-left: 20px;
+}
+/* -------------MAIN CONTENT LAYOUT-------------- */
+.main-content {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E5E5;
+    width: 100%;  
+    align-items: center; 
 }
 
 .section {
     height: 100%;
 }
+/* -------------------------------------------- */
 
-.bala {
-    width: 100%;
-    
-}
-
+/* --------------FOOTER LAYOUT------------------ */
 .footer {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    align-self: center;
+    width: 500px;
+    align-items: center;
+    gap: 10px;
 }
- 
+
+.foot-title {
+    width: 250px;
+    color: #02577A;
+    text-align: center;
+    font-size: 15px;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-line {
+    width: 450px;
+}
+/* --------------------------------------------- */
+
+
+/* ---------------ACTION ON HOVER ----------------------*/
+.navbar:hover > .home-icon > .title-home,
+.navbar:hover > .calendar-icon > .title-calendar,
+.navbar:hover > .fe-icon > .title-fe,
+.navbar:hover > .game-icon > .title-game  {
+    display: block; 
+}
+
+.home-icon:hover,
+.calendar-icon:hover,
+.fe-icon:hover,
+.game-icon:hover  {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px; 
+    transition-duration: 0.2s;  
+}
+/* ------------------------------------- */
