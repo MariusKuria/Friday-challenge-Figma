@@ -68,14 +68,18 @@ body {
 }
 
 .section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
     height: 100%;
     width: 100%;
 }
 
 .upper-block {
     display: flex;
-    gap: 300px;
+    gap: 30%;
     margin-left: 100px;
+    margin-top: 50px;
     
 }
 
@@ -89,6 +93,33 @@ font-weight: 500;
 font-size: 36px;
 line-height: 44px;
 color: #000000;
+margin-top: 30px;
+}
+.date-block > .time {
+    ;
+}
+
+.date-block {
+display: flex;
+flex-direction: column;
+width: 430px;
+height: 140px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* text-align: left; */
+
+color: #02577A;
+
+background-color: #fff;
+box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+border-radius: 25px;
+padding: 15px; 
+
 
 }
 
