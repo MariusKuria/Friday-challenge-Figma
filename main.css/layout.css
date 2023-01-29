@@ -12,6 +12,7 @@ body {
 
 .container {
     display: flex;
+    width: 100%;
 }
 /* ----------------NAVBAR LAYOUT --------------------*/
 .logo-line {
@@ -62,6 +63,7 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    gap: 50px;
     background-color: #E5E5E5;
     width: 100%;  
     align-items: center; 
@@ -70,6 +72,7 @@ body {
 .section {
     display: flex;
     flex-direction: column;
+   
     gap: 60px;
     height: 100%;
     width: 100%;
@@ -120,8 +123,33 @@ body {
     padding-top: 15px;
 }
 .time, .day {
-    
     width: 410px;
+}
+.day {
+    color: #000000;
+}
+
+.workplace-big {
+    width: 100%;
+}
+
+.section > .cleveridea {
+    
+   font-family: Montserrat;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+  
+    
+    background-color: #E5E5E5;
+    /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5); */
+    border-radius: 25px;
+    border: 2px solid #02577A;;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    
 }
 
 /* -------------------------------------------- */
@@ -141,7 +169,7 @@ body {
     text-align: center;
     font-size: 15px;
     line-height: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-line {
