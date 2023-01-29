@@ -12,7 +12,7 @@ _website design project_
 
 This project is part of "Friday challenge" at Baltic Institute of Technology. Main idea to train students to work with Figma and adopt information in theirs web page design.
 
-Site published at: https://mariuskuria.github.io/astronaut-with-phone/
+Site published at: https://mariuskuria.github.io/Friday-challenge/
 
 ## 🎯 Project features/goals
 
@@ -42,7 +42,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/MariusKuria/in-sapce-klaseje.git
+   git clone https://github.com/MariusKuria/Friday-challenge.git
    ```
 2. Install NPM packages
    ```sh
